@@ -12,7 +12,7 @@ Projeto desenvolvido em React.js consumindo a API do Pexels utilizando e aprofun
 - Responsividade
 ## Utilizar a Aplicação
 
-Para visualizar a aplicação basta utilizar o link: [ImageStudy](https://mariopaglia.github.io/imagestudy/)
+Para visualizar a aplicação basta utilizar o link: [ImageStudy](https://upbeat-boyd-fcb9d9.netlify.app/)
 
 ## Autor/Contato
 
