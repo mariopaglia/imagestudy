@@ -2,12 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 	min-height: calc(100vh - 140px);
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-
 	padding: 20px 0;
 
 	@media (max-width: 768px) {
@@ -25,7 +23,7 @@ export const ImageCard = styled.div`
 	@media (max-width: 768px) {
 		> a,
 		img {
-			max-width: 90%;
+			width: 85%;
 		}
 	}
 `;

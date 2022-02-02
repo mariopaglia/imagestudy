@@ -3,7 +3,6 @@ import { MdSearch } from 'react-icons/md';
 
 export const Container = styled.div`
 	height: 70px;
-	width: 100%;
 	background-color: var(--background-500);
 	display: flex;
 	align-items: center;
@@ -11,8 +10,7 @@ export const Container = styled.div`
 
 	@media (max-width: 768px) {
 		flex-direction: column;
-		height: 130px;
-		max-height: 100%;
+		height: 150px;
 	}
 `;
 
