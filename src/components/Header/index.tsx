@@ -1,4 +1,4 @@
-﻿import React, { useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { ImagesContext } from '../../contexts/ImagesContext';
 
 import { Container, Logo, SearchForm, SearchInput, Login, SearchIcon } from './styles';

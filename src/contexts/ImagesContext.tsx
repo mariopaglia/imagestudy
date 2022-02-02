@@ -1,4 +1,4 @@
-﻿import { AxiosResponse } from 'axios';
+import { AxiosResponse } from 'axios';
 import { createContext, FunctionComponent, useEffect, useState } from 'react';
 import API from '../api/pexels';
 

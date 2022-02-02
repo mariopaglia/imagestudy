@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import GlobalStyles from './styles/GlobalStyles';

@@ -1,5 +1,5 @@
-﻿import styled from 'styled-components';
-import { MdAccountCircle, MdSearch } from 'react-icons/md';
+import styled from 'styled-components';
+import { MdSearch } from 'react-icons/md';
 
 export const Container = styled.div`
 	height: 70px;

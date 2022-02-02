@@ -1,4 +1,4 @@
-﻿import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { ImagesContext } from '../../contexts/ImagesContext';
 import { Container, ImageCard } from './styles';
 
@@ -9,7 +9,7 @@ const Main: React.FC = () => {
 		<Container>
 			{images.map((image) => (
 				<ImageCard key={image.id}>
-					<a href={image.src.original} target="_blank">
+					<a href={image.src.original} target="_blank" rel="noreferrer">
 						<img src={image.src.medium} alt={image.alt} />
 					</a>
 				</ImageCard>
