@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { FormEvent, useContext, useState } from 'react';
 import { ImagesContext } from '../../contexts/ImagesContext';
 
 import { Container, Logo, SearchForm, SearchInput, Login, SearchIcon } from './styles';
@@ -8,9 +8,9 @@ const Header: React.FC = () => {
 
 	const [imageValue, setImageValue] = useState('');
 
-	const handleKeyPress = (event: any) => {
+	const handleKeyPress = (event: FormEvent) => {
 		event.preventDefault();
-		getImages(imageValue);
+		getImages(imageValue, 1);
 	};
 
 	return (

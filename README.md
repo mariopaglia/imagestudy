@@ -17,7 +17,7 @@ Para visualizar e testar a aplicação basta clicar no link [ImageStudy](https:/
 
 ## Implementações Futuras
 
-- [ ]  Paginação
+- [x]  Paginação
 - [ ]  Abrir imagens em modal
 - [ ]  Adicionar ao modal opções de download direto com os diferentes tipos de resolução da imagem
 - [ ]  Adicionar ao modal opção de abrir a imagem em tamanho original
