@@ -21,7 +21,7 @@ Para visualizar e testar a aplicação basta clicar no link [ImageStudy](https:/
 - [ ]  Abrir imagens em modal
 - [ ]  Adicionar ao modal opções de download direto com os diferentes tipos de resolução da imagem
 - [ ]  Adicionar ao modal opção de abrir a imagem em tamanho original
-- [ ]  Imagens dinamicas na página inicial
+- [x]  Imagens dinamicas na página inicial
 
 ## Screenshots da Aplicação
 

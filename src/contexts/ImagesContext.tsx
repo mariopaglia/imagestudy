@@ -21,8 +21,12 @@ export const ImagesContext = createContext<ImagesProviderProps>({} as ImagesProv
 export const ImagesProvider: FunctionComponent = ({ children }) => {
 	const [images, setImages] = useState<ImagesProps[]>([] as ImagesProps[]);
 
+	// Realiza a chamada das imagens da página inicial
 	useEffect(() => {
-		getImages('nature');
+		const randomDisplay = ['nature', 'soccer', 'cat', 'dog', 'florest', 'bird', 'universe', 'lion', 'weather', 'fantasy', 'space', 'summer', 'drink', 'fruit', 'car'];
+		const random = Math.floor(Math.random() * randomDisplay.length);
+
+		getImages(randomDisplay[random]);
 	}, []);
 
 	const getImages = (query: string) => {
