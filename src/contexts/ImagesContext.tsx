@@ -25,7 +25,23 @@ export const ImagesProvider: FunctionComponent = ({ children }) => {
 
 	// Realiza a chamada das imagens da página inicial
 	useEffect(() => {
-		const randomDisplay = ['nature', 'soccer', 'cat', 'dog', 'florest', 'bird', 'universe', 'lion', 'weather', 'fantasy', 'space', 'summer', 'drink', 'fruit', 'car'];
+		const randomDisplay = [
+			'nature',
+			'soccer',
+			'cat',
+			'dog',
+			'florest',
+			'bird',
+			'universe',
+			'lion',
+			'weather',
+			'fantasy',
+			'space',
+			'summer',
+			'drink',
+			'fruit',
+			'car',
+		];
 		const random = Math.floor(Math.random() * randomDisplay.length);
 
 		getImages(randomDisplay[random], 1);

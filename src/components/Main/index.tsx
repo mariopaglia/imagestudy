@@ -3,21 +3,23 @@ import { ImagesContext } from '../../contexts/ImagesContext';
 import { Container, ImageCard, Pagination } from './styles';
 
 const Main: React.FC = () => {
+	const [currentPage, setCurrentPage] = useState(1);
+
 	const { images, getImages, query } = useContext(ImagesContext);
 
-	let [currentPage, setCurrentPage] = useState(1);
+	let page = currentPage;
 
 	const handlePreviusPage = () => {
-		if (currentPage >= 2) {
-			setCurrentPage((currentPage -= 1));
-			getImages(query, currentPage);
+		if (page >= 2) {
+			setCurrentPage((page -= 1));
+			getImages(query, page);
 		}
 	};
 
 	const handleNextPage = () => {
-		if (currentPage >= 1) {
-			setCurrentPage((currentPage += 1));
-			getImages(query, currentPage);
+		if (page >= 1) {
+			setCurrentPage((page += 1));
+			getImages(query, page);
 		}
 	};
 

@@ -44,13 +44,12 @@ export const Pagination = styled.div`
 		color: var(--text);
 		border: 1px solid var(--pink);
 
-		transition: background-color .6s;
-	
+		transition: background-color 0.6s;
+
 		&:hover {
 			background-color: var(--pink);
 		}
 	}
-
 
 	button + button {
 		margin-left: 20px;
