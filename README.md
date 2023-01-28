@@ -1,19 +1,45 @@
 # ImageStudy
 
-Projeto desenvolvido em React.js consumindo a API do Pexels, com o objetivo de aprofundar os conhecimentos em:
-
-- Componentes
-- Styled Components
-- CSS-in-JS
-- Flexbox
-- Typescript
-- Context
-- Consumo de API
-- Axios
-- React Icons
-- Responsividade
+ImageStudy é um banco de imagens gratuito construído com ReactJS, Typescript e Styled Components que utiliza a Pexels API para buscar e exibir imagens. Com ele, você pode pesquisar imagens por palavras-chave e usá-las em seus projetos sem se preocupar com direitos autorais.
 
 Para visualizar e testar a aplicação, basta acessar o link: [https://imagestudy.vercel.app/](https://imagestudy.vercel.app/)
+
+## Instalação
+
+Para instalar o ImageStudy, você precisará ter o [Node.js](https://nodejs.org/) instalado em sua máquina. Em seguida, clone o repositório e execute os seguintes comandos:
+
+### Instalação por YARN
+
+```
+yarn install
+yarn start
+```
+
+### Instalação por NPM
+
+```
+npm install
+npm start
+```
+
+Isso iniciará um servidor de desenvolvimento local na porta 3000. Acesse [http://localhost:3000](http://localhost:3000) para ver o aplicativo em funcionamento.
+
+## Utilização
+
+Para usar o ImageStudy, basta pesquisar por uma palavra-chave na barra de pesquisa e clicar em uma imagem para visualizá-la. Você também pode navegar pelas páginas de resultados usando os botões "Anterior" e "Próximo".
+
+As imagens exibidas são obtidas através da Pexels API e podem ser usadas livremente em seus projetos, desde que sejam creditadas aos autores.
+
+## Contribuições
+
+Este projeto é open-source e estamos sempre abertos a contribuições. Se você deseja contribuir, por favor, siga as seguintes etapas:
+
+1. Faça um fork do repositório
+2. Crie uma nova branch com a sua contribuição (`git checkout -b my-new-feature`)
+3. Adicione suas mudanças (`git add .`)
+4. Faça o commit das suas mudanças (`git commit -m 'Added a new feature'`)
+5. Faça o push para sua branch (`git push origin my-new-feature`)
+6. Crie uma nova Pull Request
 
 ## Implementações Futuras
 
@@ -39,9 +65,6 @@ Para visualizar e testar a aplicação, basta acessar o link: [https://imagestud
 
 ![Pesquisa de Cachorro](https://i.imgur.com/ZjFzbQM.jpeg)
 
-## Autor/Contatos
+## Licença
 
-Desenvolvido por: Mário Paglia
-
-- GitHub: [https://github.com/mariopaglia](https://github.com/mariopaglia)
-- LinkedIn: [https://www.linkedin.com/in/mpagliajr/](https://www.linkedin.com/in/mpagliajr/)
+Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
